@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
-import { Navbar } from "./Navbar.tsx";
-import { Footer } from "./Footer.tsx";
+import { Navbar } from "./Navbar";
+import { Footer } from "./Footer";
 import { motion, AnimatePresence } from "motion/react";
 import { useLocation } from "react-router-dom";
 

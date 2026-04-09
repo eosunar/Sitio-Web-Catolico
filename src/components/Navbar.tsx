@@ -2,15 +2,15 @@ import * as React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { motion } from "motion/react";
 import { Menu, X, User } from "lucide-react";
-import { Button, buttonVariants } from "@/components/ui/button.tsx";
+import { Button, buttonVariants } from "@/components/ui/button";
 import {
   Sheet,
   SheetContent,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@/components/ui/sheet.tsx";
-import { cn } from "@/lib/utils.ts";
+} from "@/components/ui/sheet";
+import { cn } from "@/lib/utils";
 
 const navItems = [
   { name: "Inicio", href: "/" },

@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Layout } from "./components/Layout.tsx";
-import { Home } from "./pages/Home.tsx";
-import { Prayers } from "./pages/Prayers.tsx";
-import { News } from "./pages/News.tsx";
-import { Testimonials } from "./pages/Testimonials.tsx";
-import { Seminars } from "./pages/Seminars.tsx";
+import { Layout } from "./components/Layout";
+import { Home } from "./pages/Home";
+import { Prayers } from "./pages/Prayers";
+import { News } from "./pages/News";
+import { Testimonials } from "./pages/Testimonials";
+import { Seminars } from "./pages/Seminars";
 
 export default function App() {
   return (

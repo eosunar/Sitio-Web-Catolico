@@ -1,9 +1,9 @@
 import { motion } from "motion/react";
-import { Button } from "@/components/ui/button.tsx";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card.tsx";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowRight, BookOpen, Users, MessageSquare, GraduationCap, Newspaper, Heart } from "lucide-react";
 import { Link } from "react-router-dom";
-import { cn } from "@/lib/utils.ts";
+import { cn } from "@/lib/utils";
 
 const categories = [
   {
